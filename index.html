@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Plan AB</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Slick Carousel CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body>
+
+<!-- NAVBAR START -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="footer-logo.png" alt="Logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+      <ul class="navbar-nav me-auto">
+        <!-- SERVICES DROPDOWN -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu w-100" aria-labelledby="servicesDropdown">
+            <div class="row">
+              <!-- Train Models -->
+              <div class="col-lg-4">
+                <div class="section-title">Train Models</div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-graph-up-arrow"></i>LLM Evaluation</div>
+                  <div class="item-desc">Comprehensive model performance, accuracy, and scalability assessment.</div>
+                </div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-diagram-3"></i>LLM Training</div>
+                  <div class="item-desc">LLM reasoning, coding, and knowledge improvement with proprietary human data.</div>
+                </div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-cube"></i>Multimodality</div>
+                  <div class="item-desc">Integrate text, images, and videos for human-like intelligence.</div>
+                </div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-shield-check"></i>LLM Factuality</div>
+                  <div class="item-desc">Advanced fact verification, bias detection, and source credibility assessment.</div>
+                </div>
+              </div>
+
+              <!-- Deploy AI -->
+              <div class="col-lg-4">
+                <div class="section-title">Deploy AI</div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-cpu-fill"></i>Deploy AI Systems</div>
+                  <div class="item-desc">Go from pilot to production with scalable, KPI-aligned systems.</div>
+                </div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-people-fill"></i>Deploy AI Talent</div>
+                  <div class="item-desc">Accelerate delivery with AI-native pods integrated into your team and stack.</div>
+                </div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-signpost-2-fill"></i>Develop AI Strategy</div>
+                  <div class="item-desc">Align AI strategy to business outcomes and build a roadmap you can deliver on.</div>
+                </div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-lightbulb-fill"></i>What is Plan AB Intelligence</div>
+                  <div class="item-desc">AI strategy, talent, and systems to move from roadmap to real-world outcomes.</div>
+                </div>
+              </div>
+
+              <!-- Featured Resource -->
+              <div class="col-lg-4">
+                <div class="section-title">Featured Resource</div>
+                <div class="resource-card">
+                  <img src="https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg?semt=ais_hybrid&w=740" alt="Featured">
+                  <h5>Fine-Tuning LLMs: Overview, Methods, and Best Practices</h5>
+                  <p>
+                    Large language models (LLMs) have transformed the field of natural language...
+                  </p>
+                  <a href="#">Read more</a>
+                  <a href="#">See all resources</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+<!-- services End -->
+ <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Tools
+  </a>
+  <div class="dropdown-menu w-100" aria-labelledby="toolsDropdown">
+    <div class="row">
+      <!-- AI Tools -->
+      <div class="col-lg-4">
+        <div class="section-title">AI Productivity Tools</div>
+        <div class="service-item">
+          <div class="item-title"><i class="bi bi-tools"></i>Code Generator</div>
+          <div class="item-desc">Generate efficient, optimized code using LLMs for various languages.</div>
+        </div>
+        <div class="service-item">
+          <div class="item-title"><i class="bi bi-magic"></i>Prompt Optimizer</div>
+          <div class="item-desc">Improve prompt quality and structure for better model responses.</div>
+        </div>
+        <div class="service-item">
+          <div class="item-title"><i class="bi bi-body-text"></i>Text Summarizer</div>
+          <div class="item-desc">Condense lengthy content into concise summaries with context retention.</div>
+        </div>
+      </div>
+
+      <!-- Analytics & Monitoring -->
+      <div class="col-lg-4">
+        <div class="section-title">Monitoring & Analytics</div>
+        <div class="service-item">
+          <div class="item-title"><i class="bi bi-bar-chart-line"></i>Model Analytics</div>
+          <div class="item-desc">Track token usage, latency, cost, and performance trends over time.</div>
+        </div>
+        <div class="service-item">
+          <div class="item-title"><i class="bi bi-shield-exclamation"></i>Output Monitoring</div>
+          <div class="item-desc">Detect bias, hallucinations, and errors in real-time LLM output.</div>
+        </div>
+        <div class="service-item">
+          <div class="item-title"><i class="bi bi-clock-history"></i>Session Replay</div>
+          <div class="item-desc">Replay user-model interactions for analysis and training insights.</div>
+        </div>
+      </div>
+
+      <!-- Resource Highlight -->
+      <div class="col-lg-4">
+        <div class="section-title">Featured Tool</div>
+        <div class="resource-card">
+          <img src="https://img.freepik.com/premium-photo/person-using-ai-tool-job_23-2150714236.jpg">
+          <h5>Tool Spotlight: Real-Time Prompt Evaluator</h5>
+          <p>
+            Instantly score your prompts for coherence, creativity, and factuality..
+          </p>
+          <a href="#">Try it now</a>
+          <a href="#">Explore all tools</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+
+
+
+        <!-- OTHER MENU ITEMS -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Specialists</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+      </ul>
+      <a href="#" class="btn btn-hire">Get Started</a>
+    </div>
+  </div>
+</nav>
+<!-- NAVBAR END -->
+
+<!-- Hero Section -->
+ <section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="hero-heading">Build Robust Models. Launch Scalable AI for Your Business.</h1>
+          <p class="hero-para">Explore exceptional products, services, and experiences crafted to meet your unique needs.</p>
+          <a href="#" class="btn btn-primary btn-lg" id="hero-section-button">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Hero Section -->
+
+<!-- Marquee Section -->
+ <div class="container-fluid marquee-wrapper">
+    <div class="marquee-track" id="marquee-track">
+      <!-- Logo set -->
+      <img src="https://img.icons8.com/?size=100&id=FBO05Dys9QCg&format=png&color=FFFFFF" alt="" />
+      <img src="https://img.icons8.com/?size=100&id=1G3UNEZHMjPH&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=10019&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=1c8k5qWX49Yf&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=0NbBuNOxUwps&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=FBO05Dys9QCg&format=png&color=FFFFFF" alt="" />
+      <img src="https://img.icons8.com/?size=100&id=1G3UNEZHMjPH&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=10019&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=1c8k5qWX49Yf&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=0NbBuNOxUwps&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=FBO05Dys9QCg&format=png&color=FFFFFF" alt="" />
+      <img src="https://img.icons8.com/?size=100&id=1G3UNEZHMjPH&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=10019&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=1c8k5qWX49Yf&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=0NbBuNOxUwps&format=png&color=FFFFFF" alt="">
+
+      <!-- Clone the exact same set -->
+      <img src="https://img.icons8.com/?size=100&id=FBO05Dys9QCg&format=png&color=FFFFFF" alt="" />
+      <img src="https://img.icons8.com/?size=100&id=1G3UNEZHMjPH&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=10019&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=1c8k5qWX49Yf&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=0NbBuNOxUwps&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=FBO05Dys9QCg&format=png&color=FFFFFF" alt="" />
+      <img src="https://img.icons8.com/?size=100&id=1G3UNEZHMjPH&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=10019&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=1c8k5qWX49Yf&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=0NbBuNOxUwps&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=FBO05Dys9QCg&format=png&color=FFFFFF" alt="" />
+      <img src="https://img.icons8.com/?size=100&id=1G3UNEZHMjPH&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=10019&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=1c8k5qWX49Yf&format=png&color=FFFFFF" alt="">
+      <img src="https://img.icons8.com/?size=100&id=0NbBuNOxUwps&format=png&color=FFFFFF" alt="">
+    </div>
+  </div>
+<!-- MArquee Section -->
+
+<!-- After MArquee Section -->
+  <section class="testimonial-section">
+    <div class="container">
+      <p class="testimonial-text">“Our model's enhanced performance in code comprehension, iterative debugging, and visual tool integration has been widely recognized—much of which is credited to the advancements brought by The Plan AB.”</p>
+      <div class="testimonial-author">Technology Executive</div>
+      <div class="testimonial-role">Top-Tier Fortune 500 Company</div>
+    </div>
+  </section>
+<!-- After MArquee Section -->
+
+<!--  -->
+  <section class="research-section">
+    <div class="container">
+      <h2 class="research-title">Where Innovation Meets Execution</h2>
+      <p class="research-description">
+       Plan AB connects state-of-the-art research with real-world deployment, driving advancements in AI reasoning, problem-solving, and coding performance.
+       With deep expertise in data infrastructure, human-in-the-loop systems, and advanced post-training techniques, we empower AI labs and enterprises to lead in innovation and stay ahead of the curve.
+      </p>
+    </div>
+  </section>
+<!--  -->
+
+<!-- Stat Section -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- Left: Image Frame -->
+        <div class="col-md-6">
+          <div class="image-frame">
+            <img src="https://cdn.dribbble.com/userupload/23661028/file/original-865936c8666c1f5112b28efad81084c3.gif" 
+                 alt="Industries Image" class="stats-image">
+          </div>
+        </div>
+
+        <!-- Right: Floating Stats -->
+        <div class="col-md-6">
+          <div class="floating-stats">
+            <div class="stat-card">
+              <div class="stat-number">25+</div>
+              <div class="stat-text">Industries Innovated</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">548+</div>
+              <div class="stat-text">Professionals Available</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Stat Section -->
+
+<!-- Official Section -->
+ 
+  <section class="ai-partner-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- Left Column -->
+        <div class="col-md-6">
+          <h2 class="partner-title">Proud Partner<br>of Leading AI Innovators</h2>
+          <p class="partner-description">Partnering with the world’s top AI labs, we help bring cutting-edge research into scalable real-world applications.</p>
+        </div>
+
+        <!-- Right Column (Logos) -->
+        <div class="col-md-6">
+          <div class="logo-grid">
+            <div class="logo-card">
+              <img src="https://images.prismic.io/turing/ZqCWjB5LeNNTxcX6_OpenAI_black-236.png?auto=format%2Ccompress&fit=max&w=640" alt="OpenAI">
+            </div>
+            <div class="logo-card">
+              <img src="https://images.prismic.io/turing/ZqCWix5LeNNTxcX5_GCP_black-332.png?auto=format%2Ccompress&fit=max&w=750" alt="">
+            </div>
+            <div class="logo-card">
+                <img src="https://images.prismic.io/turing/ZqCWih5LeNNTxcX4_Nvidia_black-253.png?auto=format%2Ccompress&fit=max&w=640" alt="">
+            </div>
+            <div class="logo-card">
+                <img src="https://images.prismic.io/turing/ZqCWiR5LeNNTxcX3_AWS_black-120.png?auto=format%2Ccompress&fit=max&w=256" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Official Section -->
+
+<!-- AGI SECTION -->
+  <section class="agi-section">
+    <div class="container">
+      <h2>Overcome Advanced AI Obstacles with Confidence</h2>
+      <p>Plan AB’s dual-unit strategy drives AGI progress and seamlessly applies it to real-world challenges—bridging innovation with impact.</p>
+    </div>
+  </section>
+
+<!-- AGI SECTION -->
+
+<!-- Capablities Section -->
+<section class="capabilities-section">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Left Side Tabs -->
+      <div class="col-md-4 tab-menu">
+        <h6>CAPABILITIES</h6>
+
+        <div class="tab-item active" data-tab="advancement">
+          <h3>Plan AB / AGI Progress</h3>
+          <p>Focused on AGI innovation, Plan AB blends scalable data infrastructure, human insight, and state-of-the-art model refinement to shape the future of AI.</p>
+        </div>
+
+        <div class="tab-item" data-tab="intelligence">
+          <h3>Plan AB Intelligence</h3>
+          <p>Where advanced AGI research meets enterprise reality—delivering scalable reasoning, evaluation, and automation that transforms workflows.</p>
+        </div>
+      </div>
+
+      <!-- Right Side Grid -->
+      <div class="col-md-8">
+        <div class="row g-4" id="grid-content">
+          <!-- Dynamic content from JavaScript -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const data = {
+    advancement: [
+      { icon: "https://img.icons8.com/?size=100&id=55917&format=png&color=FFFFFF", title: "Evaluating Intelligence" },
+      { icon: "https://img.icons8.com/?size=100&id=18899&format=png&color=FFFFFF", title: "LLM Engineering" },
+      { icon: "https://img.icons8.com/?size=100&id=Z81KyKkOxplY&format=png&color=FFFFFF", title: "Vision + Language LLM" },
+      { icon: "https://img.icons8.com/?size=100&id=123409&format=png&color=FFFFFF", title: "Deep Code Understanding" },
+      { icon: "https://img.icons8.com/?size=100&id=YeDnFlEAEJ4K&format=png&color=FFFFFF", title: "AI-Generated Data" },
+      { icon: "https://img.icons8.com/?size=100&id=8303&format=png&color=FFFFFF", title: "Automation at Scale" },
+      { icon: "https://img.icons8.com/?size=100&id=0UD20ulKcDXS&format=png&color=FFFFFF", title: "Advanced LLM Reasoning" },
+      { icon: "https://img.icons8.com/?size=100&id=L0kRghPsQJBZ&format=png&color=FFFFFF", title: "Deep STEM Proficiency" },
+      { icon: "https://img.icons8.com/?size=100&id=rpmbnLZ4WX5q&format=png&color=FFFFFF", title: "Cognitive Data Processing" }
+    ],
+    intelligence: [
+      { icon: "https://img.icons8.com/?size=100&id=tt8DRY7XC8VJ&format=png&color=FFFFFF", title: "Prompt Tuning for LLMs" },
+      { icon: "https://img.icons8.com/?size=100&id=a0YT4mT3ZbK7&format=png&color=FFFFFF", title: "System Integration" },
+      { icon: "https://img.icons8.com/?size=100&id=KSOtMbt2xoRc&format=png&color=FFFFFF", title: "LLM Metrics & QA" },
+      { icon: "https://img.icons8.com/?size=100&id=k8XcWPagLwOI&format=png&color=FFFFFF", title: "Autonomous Agents" },
+      { icon: "https://img.icons8.com/?size=100&id=lYjzg0hqRpia&format=png&color=FFFFFF", title: "Knowledge Retrieval" },
+      { icon: "https://img.icons8.com/?size=100&id=xxACr6mfjql0&format=png&color=FFFFFF", title: "CoT Reasoning" },
+      { icon: "https://img.icons8.com/?size=100&id=72704&format=png&color=FFFFFF", title: "Semantic Search" },
+      { icon: "https://img.icons8.com/?size=100&id=qfjJ8pdBYMf0&format=png&color=FFFFFF", title: "Memory Systems" },
+      { icon: "https://img.icons8.com/?size=100&id=37073&format=png&color=FFFFFF", title: "Real-World Integration" }
+    ]
+  };
+
+  const tabItems = document.querySelectorAll(".tab-item");
+  const gridContent = document.getElementById("grid-content");
+
+  function renderGrid(tab) {
+    const items = data[tab];
+    gridContent.innerHTML = '';
+    items.forEach(item => {
+      const box = document.createElement('div');
+      box.className = 'col-4 col-md-4'; // Responsive: 3 per row on all screens
+      box.innerHTML = `
+        <div class="grid-box">
+          <img class="grid-icon" src="${item.icon}" alt="${item.title}">
+          <div class="grid-title">${item.title}</div>
+        </div>
+      `;
+      gridContent.appendChild(box);
+    });
+  }
+
+  tabItems.forEach(item => {
+    item.addEventListener('click', () => {
+      tabItems.forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+      const tab = item.getAttribute('data-tab');
+      renderGrid(tab);
+    });
+  });
+
+  // Load default tab
+  renderGrid('advancement');
+</script>
+<!-- Capablities Section -->
+
+<!-- Blog Section -->
+<section class="blog-section py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Latest from the Blog</h2>
+      <p class="text-muted">Insights, updates, and stories from our AI journey</p>
+    </div>
+
+    <div class="blog-slider">
+      <!-- Blog Cards -->
+       <!-- 1 -->
+      <div>
+        <div class="card h-100">
+          <img src="https://img.freepik.com/free-photo/view-purple-fists-with-fire-womens-day-celebration_23-2151257710.jpg?semt=ais_items_boosted&w=740" class="card-img-top" alt="AI">
+          <div class="card-body">
+            <h5 class="card-title">Breaking Barriers in AI Reasoning</h5>
+            <p class="card-text">Explore how Plan AB’s reasoning models are shaping decision-making processes.</p>
+          </div>
+          <div class="card-footer">Published: July 5, 2025</div>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div>
+        <div class="card h-100">
+          <img src="https://img.freepik.com/premium-vector/automation-software-iot-automation-concept-as-innovation-improving-productivity-technology_127544-3576.jpg?semt=ais_hybrid&w=740" class="card-img-top" alt="Automation">
+          <div class="card-body">
+            <h5 class="card-title">Automation That Thinks</h5>
+            <p class="card-text">Discover how autonomous workflows are revolutionizing enterprise tech.</p>
+          </div>
+          <div class="card-footer">Published: July 3, 2025</div>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div>
+        <div class="card h-100">
+          <img src="https://img.freepik.com/free-photo/man-holding-smartphone-with-apartment-buildings-hologram_23-2149369107.jpg?semt=ais_hybrid&w=740" class="card-img-top" alt="Cloud">
+          <div class="card-body">
+            <h5 class="card-title">The Future of Data Infrastructure</h5>
+            <p class="card-text">A deep dive into scaling your AI backbone with modern cloud systems.</p>
+          </div>
+          <div class="card-footer">Published: June 30, 2025</div>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div>
+        <div class="card h-100">
+          <img src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?semt=ais_hybrid&w=740" class="card-img-top" alt="Dev">
+          <div class="card-body">
+            <h5 class="card-title">AI & Coding: Smarter Together</h5>
+            <p class="card-text">How our model improves iterative debugging and developer efficiency.</p>
+          </div>
+          <div class="card-footer">Published: June 28, 2025</div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div>
+        <div class="card h-100">
+          <img src="https://img.freepik.com/free-vector/saving-earth-with-artificial-technology_52683-33407.jpg?semt=ais_hybrid&w=740" class="card-img-top" alt="Ethics">
+          <div class="card-body">
+            <h5 class="card-title">Responsible AI: A Core Priority</h5>
+            <p class="card-text">Understand how we balance innovation with ethical AI implementation.</p>
+          </div>
+          <div class="card-footer">Published: June 25, 2025</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('.blog-slider').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2500,
+      arrows: false,
+      dots: true,
+      responsive: [
+        {
+          breakpoint: 992,
+          settings: { slidesToShow: 2 }
+        },
+        {
+          breakpoint: 768,
+          settings: { slidesToShow: 1 }
+        }
+      ]
+    });
+  });
+</script>
+<!-- BLog SEction -->
+
+<!-- Above Footer Section -->
+ <section class="roi-section py-5" >
+  <div class="container">
+    <div class="row align-items-center rounded-4 overflow-hidden bg-gradient-blue text-white p-4 p-md-5">
+      
+      <!-- Left content -->
+      <div class="col-md-7 mb-4 mb-md-0">
+        <h2 class="fw-bold display-6">Is Your AI Investment Delivering Full Value?</h2>
+        <p class="mt-3 fs-5">Access proven strategies to boost performance and drive measurable business outcomes.</p>
+        <p class="fs-6">See how top organizations are turning large language models into scalable, real-world solutions.</p>
+        <a href="#" class="btn btn-light rounded-pill px-4 mt-3 fw-semibold" id="above-footer-button">Download</a>
+      </div>
+
+      <!-- Right image -->
+    <div class="col-md-5 text-center">
+  <img src="above-footer-right.png" alt="" class="img-fluid rounded shadow-lg floating-image" style="max-height: 360px;">
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- Above Footer Section End -->
+
+<!-- Footer -->
+<footer class="custom-footer">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Column 1: Logo + Social -->
+      <div class="col-lg-3 col-md-6">
+        <img src="footer-logo.png" alt="Logo" class="footer-logo mb-4">
+       <div class="d-flex flex-wrap gap-3">
+  <!-- First row -->
+  <div class="d-flex gap-3 w-100" id="social-icon-container">
+    <a href="#" class="social-circle">
+      <img src="https://img.icons8.com/?size=100&id=106163&format=png" alt="FB">
+    </a>
+    <a href="#" class="social-circle">
+      <img src="https://img.icons8.com/?size=100&id=30888&format=png&color=000000" alt="FB">
+    </a>
+    <a href="#" class="social-circle">
+      <img src="https://img.icons8.com/?size=100&id=34349&format=png" alt="Twitter">
+    </a>
+    <a href="#" class="social-circle">
+      <img src="https://img.icons8.com/?size=100&id=32309&format=png" alt="LinkedIn">
+    </a>
+  </div>
+
+  <!-- Second row -->
+  <div class="d-flex gap-3 w-100 mt-2" id="social-icon-container">
+    <a href="#" class="social-circle">
+      <img src="https://img.icons8.com/?size=100&id=37326&format=png" alt="Instagram">
+    </a>
+   
+    <a href="#" class="social-circle">
+      <img src="Threads.webp" alt="Threads">
+    </a>
+    <a href="#" class="social-circle">
+      <img src="titkok.webp" alt="TikTok">
+    </a>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-lg-2 col-md-6">
+        <h5 class="footer-heading">Company</h5>
+        <ul class="footer-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Partners</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-lg-2 col-md-6">
+        <h5 class="footer-heading">Products</h5>
+        <ul class="footer-links">
+          <li><a href="#">AI Tools</a></li>
+          <li><a href="#">Integrations</a></li>
+          <li><a href="#">APIs</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Solutions</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="col-lg-2 col-md-6">
+        <h5 class="footer-heading">Resources</h5>
+        <ul class="footer-links">
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Community</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 5: Contact -->
+      <div class="col-lg-3 col-md-12">
+        <h5 class="footer-heading">Stay Connected</h5>
+        <ul class="contact-list">
+          <li>
+            <img src="https://img.icons8.com/?size=100&id=12623&format=png&color=FFFFFF" alt="">
+            <span>najam@thebravenext.com</span>
+          </li>
+          <li>
+            <img src="https://img.icons8.com/ios-filled/20/ffffff/phone.png" alt="">
+            <span>+447463151997</span>
+          </li>
+          <li>
+            <img src="https://img.icons8.com/ios-filled/20/ffffff/marker.png" alt="">
+            <span>20 Wenlock Road, London</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<div class="footer-bottom border-top text-start">
+  <p>© 2025 The Plan AB. All rights reserved. Powered by <a href="https://thebravenext.com/" style="color: green;" target="_blank">The Brave Next</a>.</p>
+</div>
+
+
+
+<!-- Footer -->
+
+<!-- Bootstrap JS LINK -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
