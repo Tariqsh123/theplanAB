@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Plan AB</title>
+
+  <link rel="shortcut icon" href="images/footer-logo.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Schedule-demo.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Slick Carousel CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body>
+
+<!-- NAVBAR START -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="images/footer-logo.png" alt="Logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+      <ul class="navbar-nav me-auto">
+        <!-- SERVICES DROPDOWN -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu w-100" aria-labelledby="servicesDropdown">
+            <div class="row">
+              <!-- Train Models -->
+              <div class="col-lg-4">
+                <div class="section-title">Train Models</div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-graph-up-arrow"></i>LLM Evaluation</div>
+                  <div class="item-desc">Comprehensive model performance, accuracy, and scalability assessment.</div>
+                </div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-diagram-3"></i>LLM Training</div>
+                  <div class="item-desc">LLM reasoning, coding, and knowledge improvement with proprietary human data.</div>
+                </div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-cube"></i>Multimodality</div>
+                  <div class="item-desc">Integrate text, images, and videos for human-like intelligence.</div>
+                </div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-shield-check"></i>LLM Factuality</div>
+                  <div class="item-desc">Advanced fact verification, bias detection, and source credibility assessment.</div>
+                </div>
+              </div>
+
+              <!-- Deploy AI -->
+              <div class="col-lg-4">
+                <div class="section-title">Deploy AI</div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-cpu-fill"></i>Deploy AI Systems</div>
+                  <div class="item-desc">Go from pilot to production with scalable, KPI-aligned systems.</div>
+                </div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-people-fill"></i>Deploy AI Talent</div>
+                  <div class="item-desc">Accelerate delivery with AI-native pods integrated into your team and stack.</div>
+                </div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-signpost-2-fill"></i>Develop AI Strategy</div>
+                  <div class="item-desc">Align AI strategy to business outcomes and build a roadmap you can deliver on.</div>
+                </div>
+                <div class="service-item">
+                  <div class="item-title"><i class="bi bi-lightbulb-fill"></i>What is Plan AB Intelligence</div>
+                  <div class="item-desc">AI strategy, talent, and systems to move from roadmap to real-world outcomes.</div>
+                </div>
+              </div>
+
+              <!-- Featured Resource -->
+              <div class="col-lg-4">
+                <div class="section-title">Featured Resource</div>
+                <div class="resource-card">
+                  <img src="https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg?semt=ais_hybrid&w=740" alt="Featured">
+                  <h5>Fine-Tuning LLMs: Overview, Methods, and Best Practices</h5>
+                  <p>
+                    Large language models (LLMs) have transformed the field of natural language...
+                  </p>
+                  <a href="#">Read more</a>
+                  <a href="#">See all resources</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+<!-- services End -->
+ <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Tools
+  </a>
+  <div class="dropdown-menu w-100" aria-labelledby="toolsDropdown">
+    <div class="row">
+      <!-- AI Tools -->
+      <div class="col-lg-4">
+        <div class="section-title">AI Productivity Tools</div>
+        <div class="service-item">
+          <div class="item-title"><i class="bi bi-tools"></i>Code Generator</div>
+          <div class="item-desc">Generate efficient, optimized code using LLMs for various languages.</div>
+        </div>
+        <div class="service-item">
+          <div class="item-title"><i class="bi bi-magic"></i>Prompt Optimizer</div>
+          <div class="item-desc">Improve prompt quality and structure for better model responses.</div>
+        </div>
+        <div class="service-item">
+          <div class="item-title"><i class="bi bi-body-text"></i>Text Summarizer</div>
+          <div class="item-desc">Condense lengthy content into concise summaries with context retention.</div>
+        </div>
+      </div>
+
+      <!-- Analytics & Monitoring -->
+      <div class="col-lg-4">
+        <div class="section-title">Monitoring & Analytics</div>
+        <div class="service-item">
+          <div class="item-title"><i class="bi bi-bar-chart-line"></i>Model Analytics</div>
+          <div class="item-desc">Track token usage, latency, cost, and performance trends over time.</div>
+        </div>
+        <div class="service-item">
+          <div class="item-title"><i class="bi bi-shield-exclamation"></i>Output Monitoring</div>
+          <div class="item-desc">Detect bias, hallucinations, and errors in real-time LLM output.</div>
+        </div>
+        <div class="service-item">
+          <div class="item-title"><i class="bi bi-clock-history"></i>Session Replay</div>
+          <div class="item-desc">Replay user-model interactions for analysis and training insights.</div>
+        </div>
+      </div>
+
+      <!-- Resource Highlight -->
+      <div class="col-lg-4">
+        <div class="section-title">Featured Tool</div>
+        <div class="resource-card">
+          <img src="https://img.freepik.com/premium-photo/person-using-ai-tool-job_23-2150714236.jpg">
+          <h5>Tool Spotlight: Real-Time Prompt Evaluator</h5>
+          <p>
+            Instantly score your prompts for coherence, creativity, and factuality..
+          </p>
+          <a href="#">Try it now</a>
+          <a href="#">Explore all tools</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+
+
+
+        <!-- OTHER MENU ITEMS -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Specialists</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+      </ul>
+      <a href="Schedule-demo.html" class="btn btn-hire">Schedule Demo</a>
+    </div>
+  </div>
+</nav>
+<!-- NAVBAR END -->
+
+
+
+
+    <div id="schedule-top-main-container">
+   <div id="schedule-top-container">
+    <h1>CONTACT</h1>
+    <h2>Speak With AI Expert!</h2>
+    <p>Work Smarter, Save Time and Costs with AI-Powered Industrial Automation</p>
+    <span>You Can Book a 30 Minutes Slot and Discuss Your Business Requirements!</span>
+   </div>
+   <div id="schedule-calendly-container">
+    <h2>Book A Meeting !</h2>
+    <div class="calendly-inline-widget" id="calendly-widget" data-url="https://calendly.com/thebravenext/30min" style="width:100%;height:700px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+</div>
+</div>
+
+
+
+
+
+<!-- Footer -->
+<footer class="custom-footer">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Column 1: Logo + Social -->
+      <div class="col-lg-3 col-md-6">
+        <img src="images/footer-logo.png" alt="Logo" class="footer-logo mb-4">
+       <div class="d-flex flex-wrap gap-3">
+  <!-- First row -->
+  <div class="d-flex gap-3 w-100" id="social-icon-container">
+    <a href="#" class="social-circle">
+      <img src="https://img.icons8.com/?size=100&id=106163&format=png" alt="FB">
+    </a>
+    <a href="#" class="social-circle">
+      <img src="https://img.icons8.com/?size=100&id=30888&format=png&color=000000" alt="FB">
+    </a>
+    <a href="#" class="social-circle">
+      <img src="https://img.icons8.com/?size=100&id=34349&format=png" alt="Twitter">
+    </a>
+    <a href="#" class="social-circle">
+      <img src="https://img.icons8.com/?size=100&id=32309&format=png" alt="LinkedIn">
+    </a>
+  </div>
+
+  <!-- Second row -->
+  <div class="d-flex gap-3 w-100 mt-2" id="social-icon-container">
+    <a href="#" class="social-circle">
+      <img src="https://img.icons8.com/?size=100&id=37326&format=png" alt="Instagram">
+    </a>
+   
+    <a href="#" class="social-circle">
+      <img src="images/Threads.webp" alt="Threads">
+    </a>
+    <a href="#" class="social-circle">
+      <img src="images/titkok.webp" alt="TikTok">
+    </a>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-lg-2 col-md-6">
+        <h5 class="footer-heading">Company</h5>
+        <ul class="footer-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Partners</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-lg-2 col-md-6">
+        <h5 class="footer-heading">Products</h5>
+        <ul class="footer-links">
+          <li><a href="#">AI Tools</a></li>
+          <li><a href="#">Integrations</a></li>
+          <li><a href="#">APIs</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Solutions</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="col-lg-2 col-md-6">
+        <h5 class="footer-heading">Resources</h5>
+        <ul class="footer-links">
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Community</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 5: Contact -->
+      <div class="col-lg-3 col-md-12">
+        <h5 class="footer-heading">Stay Connected</h5>
+        <ul class="contact-list">
+          <li>
+            <img src="https://img.icons8.com/?size=100&id=12623&format=png&color=FFFFFF" alt="">
+            <a href="#" title="Email" style="color: white; text-decoration:none;" onclick="openGmail(event)">najam@thebravenext.com</a>
+          </li>
+          <li>
+            <img src="https://img.icons8.com/ios-filled/20/ffffff/phone.png" alt="">
+            <a href="https://api.whatsapp.com/send?phone=447463151997" title="Whatsapp Number" style="color: white; text-decoration:none;"> +447463151997</a>
+          </li>
+          <li>
+            <img src="https://img.icons8.com/ios-filled/20/ffffff/marker.png" alt="">
+            <span>20 Wenlock Road, London</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<div class="footer-bottom border-top text-start">
+  <p>© 2025 The Plan AB. All rights reserved. Powered by <a href="https://thebravenext.com/" style="color: green;" target="_blank">The Brave Next</a>.</p>
+</div>
+
+<script>
+  function openGmail(event) {
+    event.preventDefault();
+    const email = 'najam@thebravenext.com';
+    const subject = encodeURIComponent('');
+    const body = encodeURIComponent(''); 
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+    window.open(gmailUrl, '_blank');
+  }
+</script>
+
+<!-- Footer -->
+
+
+<!-- Bootstrap JS LINK -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
