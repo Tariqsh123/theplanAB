@@ -717,6 +717,30 @@
     text-align: center;
   }
 }
+@media (max-width: 575.98px) {
+      .contact-list {
+        justify-content: left;
+        align-items: flex-start;
+    }
+  .custom-footer,
+  .custom-footer .footer-heading,
+  .custom-footer .footer-links,
+  .custom-footer .contact-list,
+  .footer-bottom {
+    font-size: 0.85rem;
+  }
+
+  .custom-footer .footer-heading {
+    font-size: 1rem;
+  }
+
+  .footer-links li a,
+  .contact-list li a,
+  .contact-list li span {
+    font-size: 0.7rem;
+  }
+}
+
 /* Footer */
 
 

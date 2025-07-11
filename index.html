@@ -540,42 +540,95 @@
       <!-- Column 1: Logo + Social -->
       <div class="col-lg-3 col-md-6">
         <img src="images/footer-logo.png" alt="Logo" class="footer-logo mb-4">
-       <div class="d-flex flex-wrap gap-3">
-  <!-- First row -->
-  <div class="d-flex gap-3 w-100" id="social-icon-container">
-    <a href="#" class="social-circle">
-      <img src="https://img.icons8.com/?size=100&id=106163&format=png" alt="FB">
-    </a>
-    <a href="#" class="social-circle">
-      <img src="https://img.icons8.com/?size=100&id=30888&format=png&color=000000" alt="FB">
-    </a>
-    <a href="#" class="social-circle">
-      <img src="https://img.icons8.com/?size=100&id=34349&format=png" alt="Twitter">
-    </a>
-    <a href="#" class="social-circle">
-      <img src="https://img.icons8.com/?size=100&id=32309&format=png" alt="LinkedIn">
-    </a>
-  </div>
+        <div class="d-flex flex-wrap gap-3">
+          <!-- First row -->
+          <div class="d-flex gap-3 w-100" id="social-icon-container">
+            <a href="#" class="social-circle">
+              <img src="https://img.icons8.com/?size=100&id=106163&format=png" alt="FB">
+            </a>
+            <a href="#" class="social-circle">
+              <img src="https://img.icons8.com/?size=100&id=30888&format=png&color=000000" alt="FB">
+            </a>
+            <a href="#" class="social-circle">
+              <img src="https://img.icons8.com/?size=100&id=34349&format=png" alt="Twitter">
+            </a>
+            <a href="#" class="social-circle">
+              <img src="https://img.icons8.com/?size=100&id=32309&format=png" alt="LinkedIn">
+            </a>
+          </div>
 
-  <!-- Second row -->
-  <div class="d-flex gap-3 w-100 mt-2" id="social-icon-container">
-    <a href="#" class="social-circle">
-      <img src="https://img.icons8.com/?size=100&id=37326&format=png" alt="Instagram">
-    </a>
-   
-    <a href="#" class="social-circle">
-      <img src="images/Threads.webp" alt="Threads">
-    </a>
-    <a href="#" class="social-circle">
-      <img src="images/titkok.webp" alt="TikTok">
-    </a>
-  </div>
-</div>
-
+          <!-- Second row -->
+          <div class="d-flex gap-3 w-100 mt-2" id="social-icon-container">
+            <a href="#" class="social-circle">
+              <img src="https://img.icons8.com/?size=100&id=37326&format=png" alt="Instagram">
+            </a>
+            <a href="#" class="social-circle">
+              <img src="images/Threads.webp" alt="Threads">
+            </a>
+            <a href="#" class="social-circle">
+              <img src="images/titkok.webp" alt="TikTok">
+            </a>
+          </div>
+        </div>
       </div>
 
-      <!-- Column 2 -->
-      <div class="col-lg-2 col-md-6">
+      <!-- Company + Products in one row on mobile -->
+      <div class="col-12 d-flex flex-wrap d-md-none">
+        <div class="col-6">
+          <h5 class="footer-heading">Company</h5>
+          <ul class="footer-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Partners</a></li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <h5 class="footer-heading">Products</h5>
+          <ul class="footer-links">
+            <li><a href="#">AI Tools</a></li>
+            <li><a href="#">Integrations</a></li>
+            <li><a href="#">APIs</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Solutions</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Resources + Stay Connected in one row on mobile -->
+      <div class="col-12 d-flex flex-wrap d-md-none">
+        <div class="col-6">
+          <h5 class="footer-heading">Resources</h5>
+          <ul class="footer-links">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Guides</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <h5 class="footer-heading">Stay Connected</h5>
+          <ul class="contact-list">
+            <li>
+              <img src="https://img.icons8.com/?size=100&id=12623&format=png&color=FFFFFF" alt="">
+              <a href="#" title="Email" style="color: white; text-decoration:none;" onclick="openGmail(event)">najam@thebravenext.com</a>
+            </li>
+            <li>
+              <img src="https://img.icons8.com/ios-filled/20/ffffff/phone.png" alt="">
+              <a href="https://api.whatsapp.com/send?phone=447463151997" title="Whatsapp Number" style="color: white; text-decoration:none;"> +447463151997</a>
+            </li>
+            <li>
+              <img src="https://img.icons8.com/ios-filled/20/ffffff/marker.png" alt="">
+              <span>20 Wenlock Road, London</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Original Columns for md+ devices -->
+      <div class="col-lg-2 col-md-6 d-none d-md-block">
         <h5 class="footer-heading">Company</h5>
         <ul class="footer-links">
           <li><a href="#">About</a></li>
@@ -586,8 +639,7 @@
         </ul>
       </div>
 
-      <!-- Column 3 -->
-      <div class="col-lg-2 col-md-6">
+      <div class="col-lg-2 col-md-6 d-none d-md-block">
         <h5 class="footer-heading">Products</h5>
         <ul class="footer-links">
           <li><a href="#">AI Tools</a></li>
@@ -598,8 +650,7 @@
         </ul>
       </div>
 
-      <!-- Column 4 -->
-      <div class="col-lg-2 col-md-6">
+      <div class="col-lg-2 col-md-6 d-none d-md-block">
         <h5 class="footer-heading">Resources</h5>
         <ul class="footer-links">
           <li><a href="#">Help Center</a></li>
@@ -610,8 +661,7 @@
         </ul>
       </div>
 
-      <!-- Column 5: Contact -->
-      <div class="col-lg-3 col-md-12">
+      <div class="col-lg-3 col-md-6 d-none d-md-block">
         <h5 class="footer-heading">Stay Connected</h5>
         <ul class="contact-list">
           <li>
@@ -632,20 +682,24 @@
     </div>
   </div>
 </footer>
+
+<!-- Bottom -->
 <div class="footer-bottom border-top text-start">
   <p>© 2025 The Plan AB. All rights reserved. Powered by <a href="https://thebravenext.com/" style="color: green;" target="_blank">The Brave Next</a>.</p>
 </div>
 
+<!-- Email Script -->
 <script>
   function openGmail(event) {
     event.preventDefault();
     const email = 'najam@thebravenext.com';
     const subject = encodeURIComponent('');
-    const body = encodeURIComponent(''); 
+    const body = encodeURIComponent('');
     const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
     window.open(gmailUrl, '_blank');
   }
 </script>
+
 
 <!-- Footer -->
 
