@@ -1,4 +1,15 @@
 #top{
     background: rgb(255, 255, 255,0.7);
     box-shadow: 1px 1px 5px gray;
+    padding: 10px 0;
+}
+@media only screen and (max-width: 1000px) {
+    body.material #header-outer[data-header-resize="1"]:not([data-format=left-header]):not(.scrolled-down):not(.small-nav) {
+        border-bottom: 1px solid #424041;
+padding: 0;
+    }
+        div#header-outer.scrolled-down {
+        padding: 0;
+        background: #fff !important;
+    }
 }
