@@ -13,3 +13,14 @@ padding: 0;
         background: #fff !important;
     }
 }
+@media only screen and (min-width: 1000px) {
+    .container, .material #search-outer #search, .nectar-recent-posts-slider .flickity-page-dots, .post-area.standard-minimal.full-width-content .post .inner-wrap, .woocommerce-tabs .full-width-content .tab-container, body[data-header-format=left-header] .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+        max-width: 2000px;
+    }
+}
+#header-outer #logo img, #header-outer .logo-spacing img {
+    height: 40px;
+}
